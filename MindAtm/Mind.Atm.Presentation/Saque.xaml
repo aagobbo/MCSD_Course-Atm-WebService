@@ -1,0 +1,20 @@
+﻿<Window x:Class="Mind.Atm.Presentation.Saque"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mind.Atm.Presentation"
+        mc:Ignorable="d"
+        Title="Saque" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="Agencia" HorizontalAlignment="Left" Height="23" Margin="265,89,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Conta" HorizontalAlignment="Left" Height="23" Margin="283,152,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Agência" HorizontalAlignment="Left" Margin="157,89,0,0" VerticalAlignment="Top"/>
+        <Label Content="Conta" HorizontalAlignment="Left" Margin="181,152,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Saldo" HorizontalAlignment="Left" Margin="334,264,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Button x:Name="RealizarSaque" Content="Realizar Saque" HorizontalAlignment="Left" Margin="130,262,0,0" VerticalAlignment="Top" Width="131"/>
+        <TextBlock x:Name="Valor" HorizontalAlignment="Left" Margin="295,211,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Label Content="Valor" HorizontalAlignment="Left" Margin="197,213,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
